@@ -1,0 +1,506 @@
+#wrapper H4
+{
+	background-color: #FFF;
+}
+#wrapper DIV H5
+{
+}
+#wrapper DIV H5
+{
+	background-image: none;
+}
+#acc2 H4 A
+{
+	padding-left: 70px;
+}
+#acc2 H4.new
+{
+}
+#acc2 H4.new A
+{
+	padding-left: 34px;
+	color: #930018;
+}
+#acc2 H5 A
+{
+	padding-left: 35px;
+}
+#acc2 P.switch
+{
+	margin-left: 30px;
+}
+H4.interface
+{
+	background-image: url(assets/img/gems/10.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #F6DFE3;
+}
+H4.character
+{
+	background-image: url(assets/img/gems/20.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #DDBBDE;
+}
+H4.gameplay
+{
+	background-image: url(assets/img/gems/30.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #A3BBE4;
+}
+H4.realism
+{
+	background-image: url(assets/img/gems/40.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #6DD5DC;
+}
+H4.environment
+{
+	background-image: url(assets/img/gems/50.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #6AEEBD;
+}
+H4.travel
+{
+	background-image: url(assets/img/gems/60.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #E7FDE5;
+}
+H4.encounters
+{
+	background-image: url(assets/img/gems/70.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #FAFDD6;
+}
+H4.thievery
+{
+	background-image: url(assets/img/gems/80.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #EEAF89;
+}
+H4.crafting
+{
+	background-image: url(assets/img/gems/90.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #FEB5BC;
+}
+DIV.interface H5
+{
+	background-image: url(assets/img/gems/10sm.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #F6DFE3;
+}
+DIV.character H5
+{
+	background-image: url(assets/img/gems/20sm.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #DDBBDE;
+}
+DIV.gameplay H5
+{
+	background-image: url(assets/img/gems/30sm.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #A3BBE4;
+}
+DIV.realism H5
+{
+	background-image: url(assets/img/gems/40sm.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #6DD5DC;
+}
+DIV.environment H5
+{
+	background-image: url(assets/img/gems/50sm.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #6AEEBD;
+}
+DIV.travel H5
+{
+	background-image: url(assets/img/gems/60sm.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #E7FDE5;
+}
+DIV.encounters H5
+{
+	background-image: url(assets/img/gems/70sm.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #FAFDD6;
+}
+DIV.thievery H5
+{
+	background-image: url(assets/img/gems/80sm.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #EEAF89;
+}
+DIV.crafting H5
+{
+	background-image: url(assets/img/gems/90sm.png);
+	background-repeat: no-repeat;
+	background-position: 25px 1px;
+	background-color: #FEB5BC;
+}
+DIV.interface TABLE TR:hover
+{
+}
+DIV.character TABLE TR:hover
+{
+}
+DIV.gameplay TABLE TR:hover
+{
+}
+DIV.realism TABLE TR:hover
+{
+}
+DIV.environment TABLE TR:hover
+{
+}
+DIV.travel TABLE TR:hover
+{
+}
+DIV.encounters TABLE TR:hover
+{
+}
+DIV.thievery TABLE TR:hover
+{
+}
+DIV.crafting TABLE TR:hover
+{
+}
+#acc2 TABLE
+{
+	margin: 5px 2px;
+	width: 100%;
+}
+#acc2 TABLE TR TD
+{
+	vertical-align: top;
+	border-bottom: 1px solid #E8E8E8;
+}
+.col1
+{
+	width: 16px;
+}
+.col1 IMG
+{
+	position: relative;
+	top: 3px;
+}
+.col2
+{
+	white-space: nowrap;
+	padding: 0 10px;
+	font-weight: bold;
+	width: 1px;
+	text-align: left;
+}
+#acc2 .interface A
+{
+	color: #594347;
+}
+#acc2 .character A
+{
+	color: #4F2B50;
+}
+#acc2 .gameplay A
+{
+	color: #263D63;
+}
+#acc2 .realism A
+{
+	color: #004B56;
+}
+#acc2 .environment A
+{
+	color: #055938;
+}
+#acc2 .travel A
+{
+	color: #1F4A17;
+}
+#acc2 .encounters A
+{
+	color: #545829;
+}
+#acc2 .thievery A
+{
+	color: #612700;
+}
+#acc2 .crafting A
+{
+	color: #99282D;
+}
+#acc2 .col2 A:hover
+{
+	color: #0054BA;
+	text-decoration: underline;
+}
+.suggestion_box
+{
+	position: absolute;
+	right: 35px;
+	top: 50px;
+}
+DIV.gameplay TABLE.group TR TD.col1
+{
+	border-left: 1px solid #A3BBE4;
+}
+TR.na
+{
+	color: #A0A0A0;
+}
+#main TR.na A:link, #main TR.na A:visited
+{
+	color: #A0A0A0;
+}
+TR.group_top TD, TR.group_middle TD, TR.group_bottom TD
+{
+	background-color: #EEE;
+}
+#acc2 TR.group_top TD
+{
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+#acc2 TR.group_middle TD
+{
+	border-bottom: 1px solid #CCC;
+}
+TR.group_top TD.col1
+{
+	border-left: 1px solid #CCC;
+}
+#wrapper #main TR.group_top TD.col3
+{
+	border-right: 1px solid #CCC;
+}
+TR.group_middle TD.col1
+{
+	border-left: 1px solid #CCC;
+}
+TR.group_middle TD.col3
+{
+	border-right: 1px solid #CCC;
+}
+#acc2 TR.group_bottom TD
+{
+	border-bottom: 1px solid #CCC;
+}
+#acc2 TR.group_bottom TD.col1
+{
+	border-left: 1px solid #CCC;
+}
+#acc2 TR.group_bottom TD.col3
+{
+	border-right: 1px solid #CCC;
+}
+#wrapper #main .parent_module
+{
+	color: #BABABA;
+}
+.submodule_indicator
+{
+	font-size: 1em;
+	position: relative;
+	bottom: 4px;
+	padding-left: 11px;
+	font-weight: normal;
+}
+.information_icon
+{
+	position: relative;
+	top: 4px;
+}
+#wrapper #main .submodule
+{
+}
+P.section_video STRONG
+{
+	font-size: 15px;
+	padding-right: 10px;
+}
+#wrapper P.section_video A:link, #wrapper P.section_video A:Visited
+{
+	color: #F7ABAB;
+}
+#wrapper P.section_video A:hover
+{
+	color: #F46B86;
+}
+P.section_video
+{
+	position: relative;
+	top: 3px;
+	background-color: #020202;
+	color: #FFFFFF;
+	padding: 2px 0 2px 20px;
+}
+P.section_video .col1
+{
+	padding-right: 5px;
+}
+UL.tips
+{
+	position: relative;
+	left: 50px;
+	bottom: 4px;
+	font-size: 1.2em;
+}
+.reqd
+{
+	color: #BE1515;
+	font-weight: bold;
+}
+.legend
+{
+	border: 1px solid #D6D6D6;
+	padding: 6px;
+	background-color: #F4F4F4;
+}
+.DG
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.HF
+{
+	font-weight: bold;
+	color: #008000;
+}
+.DB
+{
+	font-weight: bold;
+	color: #2000E4;
+}
+.SKSE
+{
+	font-weight: bold;
+	color: #FFA500;
+}
+.SD
+{
+	font-weight: bold;
+	color: #800080;
+}
+#acc2 TR.group_top TD.stars
+{
+	background-color: #FFF;
+	border-top: none;
+	border-bottom: 1px solid #EEE;
+}
+#acc2 TR.group_middle TD.stars
+{
+	border-top: none;
+	border-bottom: 1px solid #EEE;
+	border-top: none;
+	background-color: #FFF;
+}
+#acc2 TR.group_bottom TD.stars
+{
+	background-color: #FFF;
+	border-bottom: 1px solid #EEE;
+}
+.stars
+{
+	width: 60px;
+}
+.stars SPAN
+{
+	background: url(assets/img/stars.png) no-repeat;
+	display: block;
+	width: 52px;
+	height: 13px;
+	overflow: hidden;
+	background-position: 0px 0px;
+	position: relative;
+	top: 4px;
+	left: 0px;
+}
+#acc2 .s0
+{
+	background-position: 0px -13px;
+}
+#acc2 .s0_yellow
+{
+	background-position: 0px -26px;
+}
+#acc2 .s0_black
+{
+	background-position: 0px -39px;
+}
+#acc2 .s1
+{
+	background-position: 0px -52px;
+}
+#acc2 .s2
+{
+	background-position: 0px -65px;
+}
+#acc2 .s3
+{
+	background-position: 0px -78px;
+}
+#acc2 .s4
+{
+	background-position: 0px -91px;
+}
+#acc2 .s1_old
+{
+	background-position: 0px -104px;
+}
+#acc2 .s2_old
+{
+	background-position: 0px -117px;
+}
+#acc2 .s3_old
+{
+	background-position: 0px -130px;
+}
+#acc2 .s4_old
+{
+	background-position: 0px -143px;
+}
+#acc2 .s0_blue
+{
+	background-position: 0px -156px;
+}
+#acc2 .s1_blue
+{
+	background-position: 0px -169px;
+}
+#acc2 .s2_blue
+{
+	background-position: 0px -182px;
+}
+#acc2 .s3_blue
+{
+	background-position: 0px -195px;
+}
+#acc2 .s4_blue
+{
+	background-position: 0px -208px;
+}
+
+/*
+     FILE ARCHIVED ON 22:23:49 Feb 21, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:15:32 May 16, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

@@ -1,0 +1,616 @@
+/*--------
+The CSS rules offered here are just an example. You can style the 'accordion' in any way you like.
+The styles for the Page Structure are needed just for the purpose of this demo page.
+If you decide to use the CSS rules in 'Accordion' (see below) as a base,
+be sure to rename the selectors as to satisfy the elements in your site.
+---------*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+/*--- Page Structure  ---*/
+HTML
+{
+	height: 100%;
+}
+BODY
+{
+	min-width: 480px;
+	width: 100%;
+	height: 101%;
+	color: #333;
+	font: 76%/1.6 verdana, geneva, lucida, "lucida grande", arial, helvetica, sans-serif;
+	text-align: center;
+}
+#topnav
+{
+	border-bottom: 1px solid #444444;
+	height: 30px;
+	background-color: #000000;
+	text-align: right;
+	margin-right: 10px;
+}
+#topnav A, #bottomnav A
+{
+	font-family: "Alegreya SC", Arial, verdana;
+	font-size: 18px;
+}
+#topnav A:link, #topnav A:visited
+{
+	color: #C9C9C9;
+	font-weight: bold;
+	/*[disabled]font-size:1.2em;*/
+	position: relative;
+	bottom: 6px;
+	right: 20px;
+}
+#topnav A:hover
+{
+	color: #6D6D6D;
+}
+#topnav .twitter
+{
+	padding: 0 12px;
+	position: relative;
+	top: 8px;
+}
+#topnav .icon
+{
+	padding: 0 5px 0 0;
+	position: relative;
+	top: 8px;
+}
+#topnav .endorse
+{
+	top: 6px;
+}
+#header
+{
+	padding-left: 20px;
+	height: 180px;
+	/*[disabled]background-color:#000;*/
+	/*[disabled]background-image:url(assets/img/header_bg.jpg);*/
+	background-repeat: no-repeat;
+}
+#header .logo
+{
+	position: relative;
+	top: 13px;
+	height: 150px;
+}
+#bottomnav
+{
+	background-color: #050505;
+	border-top: 1px solid #444444;
+	border-bottom: 1px solid #444444;
+	height: 30px;
+	padding-left: 30px;
+	/*[disabled]+opacity:80%;*/
+}
+#bottomnav A
+{
+	color: #FFFFFF;
+	font-family: "Alegreya SC", Arial, verdana;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 2px 27px 0;
+	margin: 0 0px 0 0;
+	position: relative;
+	top: 0px;
+	display: block;
+	float: left;
+	background-color: #272829;
+	border-right: 1px solid #101213;
+	height: 28px;
+}
+#bottomnav A.new
+{
+	color: #B5001E;
+}
+#bottomnav A.new:hover
+{
+	color: #FFF;
+}
+#bottomnav A:hover
+{
+	background-color: #363839;
+}
+#bottomnav .endorse
+{
+	/*[disabled]position:relative;*/
+	/*[disabled]top:4px;*/
+}
+#wrapper
+{
+	border-top: 0.1em solid #CCC;
+	background: #000;
+	/*[disabled]background-image:url(assets/img/page_bg2.jpg);*/
+	/*[disabled]background-image:url(assets/img/page_bg2b.jpg);*/
+	/*[disabled]background-image:url(assets/img/page_bg2c.jpg);*/
+	/*[disabled]background-image:url(assets/img/page_bg2d.jpg);*/
+	/*[disabled]background-image:url(assets/img/page_bg2e.jpg);*/
+	background-image: url(assets/img/bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: right -80px;
+	/*[disabled]background-attachment:fixed;*/
+	text-align: left;
+	overflow: hidden;
+	width: 100%;
+}
+#container
+{
+	margin: 0 30px;
+	position: relative;
+	min-height: 0;
+}
+#main P.introtext
+{
+	margin: 10px 30px 30px;
+	font-size: 1.4em;
+}
+#container.indent
+{
+	margin: 0px 30px;
+}
+#main
+{
+	position: relative;
+	min-height: 0;
+	background-color: #FFF;
+	padding: 30px 80px 100px;
+	/*[disabled]+opacity:80%;*/
+}
+.home #main
+{
+	padding-right: 10px;
+	padding-left: 10px;
+	/*[disabled]+opacity:92%;*/
+}
+#side
+{
+	float: right;
+	display: inline;
+	width: 18em;
+	padding-bottom: 1.3em;
+	position: relative;
+	overflow: hidden;
+}
+#footer
+{
+	background-image: url(assets/img/footer_bg2.jpg);
+	background-repeat: no-repeat;
+	background-color: #15090D;
+	background-position: top right;
+	height: 250px;
+	border-top: 5px solid #A87E44;
+	font-size: 0.9em;
+	text-align: left;
+	position: relative;
+}
+#footer .artwork
+{
+	color: #CCC;
+	float: right;
+	text-align: right;
+	margin: 10px 30px 0 0;
+}
+#footer .thankyou
+{
+	float: left;
+	margin: 30px 0 0 110px;
+}
+#footer A
+{
+	color: #FFF;
+}
+#footer A:hover
+{
+	color: #0055BB;
+}
+.indent30
+{
+	margin-right: 50px;
+	margin-left: 35px;
+}
+.indent20
+{
+	margin-left: 20px;
+}
+/*--- Headings ---*/
+P
+{
+	margin: 0 10px 1em 0;
+	font-size: 1.2em;
+}
+.clear
+{
+	clear: both;
+}
+.alert
+{
+	color: #BB0D31;
+}
+#content .alert a:link,
+#content .alert a:visited 
+{
+	color: #BB0D31;
+	font-weight: bold;
+}
+
+.success 
+{
+	color: #009933;
+}
+#content .success a:link,
+#content .success a:visited 
+{
+	color: #009933;
+	font-weight: bold;
+}
+#content .alert a:hover ,
+#content .success a:hover
+{
+	text-decoration: none;
+}
+H1
+{
+	height: 82px;
+	padding: 0px 1px 0 80px;
+	margin: 30px 0 0;
+	line-height: 79px;
+	font-family: "Alegreya SC", Arial, verdana;
+	font-size: 2.6em;
+	font-weight: normal;
+	color: #A8ABB4;
+	display: block;
+	background-color: #000000;
+	background-image: url(assets/img/dragon.png);
+	background-repeat: no-repeat;
+	background-position: 25px 0px;
+	/*[disabled]display:none;*/
+	border-top: 1px solid #444444;
+	border-left: 1px solid #727272;
+	border-right: 1px solid #727272;
+	/*+opacity:70%;*/
+	filter: alpha(opacity=70);
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+H2, H3
+{
+	margin-bottom: 15px;
+}
+H2, H3, H4 A, H5 A
+{
+	padding: 3px 10px;
+}
+H2, H3, H4, H5
+{
+	/*[disabled]font-size:1em;*/
+}
+.accordion P
+{
+	font-size: 1em;
+}
+.accordion .col2 P
+{
+	margin: 0;
+}
+.accordion H4
+{
+	font-size: 1.8em;
+}
+.accordion H5
+{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+#main H2
+{
+	background-color: #F0F0F0;
+}
+#side, #side H2, #side H3
+{
+	background: #000;
+	color: #E3E3E3;
+}
+#side H2
+{
+	border-bottom: 1px solid #484B51;
+}
+OL.bullets, UL.bullets
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.accordion OL.bullets, .accordion UL.bullets
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+OL.bullets LI
+{
+	list-style-type: decimal;
+	margin: 0 0 0 20px;
+}
+OL.bullets LI OL LI
+{
+	margin: 0 0 0 20px;
+	list-style-type: circle;
+}
+UL.bullets LI
+{
+	list-style-type: disc;
+	margin: 0 0 0 20px;
+}
+UL.bullets LI UL LI
+{
+	margin: 0 0 0 20px;
+	list-style-type: circle;
+}
+/*--- Links ---*/
+A
+{
+	padding: 1px;
+	border: 0 solid #E0E0E0;
+	color: #05B;
+}
+A, .accordion .switch A
+{
+	/*[disabled]border-width:0 0 1px;*/
+	text-decoration: none;
+}
+.accordion A
+{
+	/*[disabled]border-width:1px;*/
+	/*[disabled]text-decoration:underline;*/
+}
+A:hover, A:focus, A:active
+{
+	border-color: #CCC;
+	text-decoration: none;
+	outline: 0 none #000000;
+}
+.col3 A:link, .col3 A:hover, .col3 A:focus, .col3 A:active, #acc2 P A:link
+{
+	/*[disabled]border-color:#CCC;*/
+	text-decoration: underline;
+	outline: 0 none #000000;
+}
+.col3
+{
+	padding-right: 10px;
+}
+#side A
+{
+	display: block;
+	border-width: 0 0 1px;
+	border-color: #445;
+	color: #F0F0F0;
+}
+#side A:hover, #side A:active, #side A:focus
+{
+	background-color: #334;
+}
+H4 A:link, H5 A:link
+{
+	text-decoration: none;
+	color: #000000;
+}
+/*--- Colors ---*/
+.cat100 A.trigger, .cat800 A.trigger
+{
+	/*[disabled]background-color:#FECB98;*/
+}
+.cat200 A.trigger, .cat900 A.trigger
+{
+	/*[disabled]background-color:#FEFE98;*/
+}
+.cat300 A.trigger, .cat1000 A.trigger
+{
+	/*[disabled]background-color:#CBFECB;*/
+}
+.cat400 A.trigger, .cat1100 A.trigger
+{
+	/*[disabled]background-color:#CBFEFE;*/
+}
+.cat500 A.trigger
+{
+	/*[disabled]background-color:#98CBFE;*/
+}
+.cat600 A.trigger
+{
+	/*[disabled]background-color:#CB98FE;*/
+}
+.cat700 A.trigger
+{
+	/*[disabled]background-color:#FE98CB;*/
+}
+/*--- Accordion ---*/
+.js #main .accordion
+{
+	visibility: hidden;
+}
+.js #side .accordion
+{
+	display: none;
+}
+.accordion
+{
+	margin: 0;
+	/*[disabled]padding:0 10px;*/
+	width: 100%;
+}
+.accordion LI
+{
+	list-style-type: none;
+}
+.accordion LI.last-child
+{
+	margin-left: 19px;
+	list-style-type: disc;
+}
+#side UL.accordion UL
+{
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+.accordion .outer
+{
+	/*[disabled]border:1px solid #DADADA;*/
+	border-width: 0 1px 1px;
+	background: #FFF;
+}
+.accordion .inner
+{
+	margin-bottom: 0;
+	padding: 0 0 1em 15px;
+	overflow: hidden;
+}
+.accordion .inner .inner
+{
+	padding-bottom: 0;
+}
+.accordion .h
+{
+	margin-top: 0.3em;
+}
+.accordion P
+{
+	margin: 0.5em 0 1em;
+}
+.switch
+{
+	margin-bottom: 0.5em;
+}
+/*
+Add styles for all links in the 'accordion':
+.accordion a {...}
+*/
+A.trigger
+{
+	display: block;
+	padding-left: 20px;
+	background-image: url(assets/img/plus.gif);
+	background-repeat: no-repeat;
+	background-position: 1px 50%;
+	font-weight: 700;
+}
+A.trigger.open
+{
+	background-image: url(assets/img/minus.gif);
+}
+.last-child A.trigger
+{
+	padding-left: 1px;
+	background-image: none;
+	font-weight: normal;
+}
+#main A.trigger
+{
+	/*[disabled]background-color:#F0F0F0;*/
+}
+#main A.trigger.open
+{
+	border-color: #DADADA;
+	/*[disabled]background-color:#E7E7E7;*/
+}
+#main A:hover.trigger.open, #main A:focus.trigger.open, #main A:active.trigger.open
+{
+	border-color: #BCD;
+}
+#main .switch A.open
+{
+	background: transparent none;
+}
+#side A.active
+{
+	font-weight: 700;
+	color: #F72;
+	text-decoration: none;
+}
+HR
+{
+	border: 1px solid #EAEAEA;
+	margin: 20px 0;
+}
+.gems_letter
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #6D6D6D;
+	position: relative;
+	top: 3px;
+}
+/*BADGES*/
+.badges TD.middle
+{
+	margin: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+	width: 960px;
+	background-image: url(assets/img/nexus_bg_middle.png);
+	background-repeat: repeat-y;
+	text-align: center;
+}
+#main .badges H2
+{
+	text-align: left;
+	background: none;
+	/*[disabled]border-bottom:4px dotted #4C4C4C;*/
+	/*[disabled]border-top:4px dotted #4C4C4C;*/
+	margin: 0;
+	position: relative;
+	top: 60px;
+}
+.badges TEXTAREA
+{
+	margin-bottom: 100px;
+}
+.badges .bbcode
+{
+	position: relative;
+	right: 303px;
+}
+.fb-subscribe
+{
+	margin: 0 0 20px;
+}
+.subscribe-left-col
+{
+	width: 550px;
+}
+.fb-comments
+{
+	float: right;
+}
+IFRAME.archery_mods
+{
+	width: 846px;
+	height: 970px;
+	border: none;
+	margin-top: 20px;
+}
+#acc2 .steam A:link, #acc2 .steam A:visited, A.steam
+{
+	color: #0000FF;
+}
+.callout
+{
+	background-color: #FEFEC2;
+	border: 1px solid #C7C6C6;
+	padding: 10px 15px;
+	font-style: italic;
+	color: #757575;
+}
+
+/*
+     FILE ARCHIVED ON 22:23:49 Feb 21, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:15:32 May 16, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

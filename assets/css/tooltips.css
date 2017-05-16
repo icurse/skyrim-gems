@@ -1,0 +1,112 @@
+#wrapper #main .tooltip
+{
+	/*[disabled]border-bottom:1px dotted #000000;*/
+	/*[disabled]color:#000000;*/
+	outline: none;
+	cursor: help;
+	position: relative;
+}
+.tooltip SPAN
+{
+	margin-left: -999em;
+	position: absolute;
+}
+#wrapper #main .tooltip:hover SPAN
+{
+	/*[disabled]font-family:Calibri, Tahoma, Geneva, sans-serif;*/
+	/*[disabled]position:absolute;*/
+	/*[disabled]left:1em;*/
+	/*[disabled]top:2em;*/
+	/*[disabled]z-index:99;*/
+	/*[disabled]margin-left:0;*/
+	/*[disabled]width:250px;*/
+}
+#wrapper #main .tooltip:hover SPAN
+{
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #5E5E5E;
+	position: absolute;
+	left: 0px;
+	top: 2em;
+	z-index: 99;
+	margin-left: 0;
+	width: 250px;
+}
+.tooltip:hover IMG
+{
+	/*[disabled]border:0;*/
+	/*[disabled]margin:-10px 0 0 -55px;*/
+	/*[disabled]float:left;*/
+	/*[disabled]position:absolute;*/
+}
+.tooltip:hover IMG
+{
+	border: 0;
+	margin: -5px 0 0 -55px;
+	float: left;
+	position: absolute;
+}
+.tooltip:hover EM
+{
+	/*[disabled]font-family:Candara, Tahoma, Geneva, sans-serif;*/
+	/*[disabled]font-size:1.2em;*/
+	/*[disabled]font-weight:bold;*/
+	/*[disabled]display:block;*/
+	/*[disabled]padding:0.2em 0 0.6em;*/
+}
+.tooltip:hover EM
+{
+	font-family: Candara, Tahoma, Geneva, sans-serif;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	padding: 0.2em 0;
+}
+.classic
+{
+	padding: 0.8em 1em;
+}
+.custom
+{
+	padding: 0.5em 4em 0.8em 2em;
+}
+* HTML A:hover
+{
+	background: transparent;
+}
+.classic
+{
+	background: #FFFFAA;
+	border: 1px solid #FFAD33;
+}
+.critical
+{
+	background: #FFCCAA;
+	border: 1px solid #FF3334;
+}
+.help
+{
+	background: #9FDAEE;
+	border: 1px solid #2BB0D7;
+}
+.info
+{
+	background: #9FDAEE;
+	border: 1px solid #2BB0D7;
+}
+.warning
+{
+	background: #FFFFAA;
+	border: 1px solid #FFAD33;
+}
+
+/*
+     FILE ARCHIVED ON 22:23:49 Feb 21, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:15:32 May 16, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

@@ -1,0 +1,53 @@
+/*undohtml.css
+(CC) 2004 Tantek Celik. Some Rights Reserved.
+http://creativecommons.org/licenses/by/2.0
+This style sheet is licensed under a Creative Commons License.
+http://www.tantek.com/log/2004/undohtml.css
+Purpose: undo some of the default styling of common (X)HTML browsers
+link underlines tend to make hypertext less readable,
+because underlines obscure the shapes of the lower halves of words*/
+:link, :visited
+{
+	text-decoration: none;
+}
+/*no list-markers by default, since lists are used more often for semantics*/
+UL, OL
+{
+	list-style: none;
+}
+/*avoid browser default inconsistent heading font-sizes
+and pre/code too*/
+H1, H2, H3, H4, H5, H6, PRE, CODE
+{
+	/*[disabled]font-size:1em;*/
+}
+/*remove the inconsistent (among browsers) default ul,ol padding or margin
+the default spacing on headings does not match nor align with
+normal interline spacing at all, so let's get rid of it.
+zero out the spacing around pre, form, body, html, p, blockquote as well
+form elements are oddly inconsistent, and not quite CSS emulatable.
+nonetheless strip their margin and padding as well*/
+UL, OL, LI, H1, H2, H3, H4, H5, H6, PRE, FORM, BODY, HTML, P, BLOCKQUOTE, FIELDSET, INPUT
+{
+	margin: 0;
+	padding: 0;
+}
+/*whoever thought blue linked image borders were a good idea?*/
+IMG, :link IMG, :visited IMG
+{
+	border: none;
+}
+/*de-italicize address*/
+ADDRESS
+{
+	font-style: normal;
+}
+
+/*
+     FILE ARCHIVED ON 22:23:48 Feb 21, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:15:33 May 16, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/

@@ -1,0 +1,41 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya SC'), local('AlegreyaSC-Regular'), url(http://fonts.gstatic.com/s/alegreyasc/v6/-74JUGs8W14C5cCBFRS306E8kM4xWR1_1bYURRojRGc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya SC'), local('AlegreyaSC-Regular'), url(http://fonts.gstatic.com/s/alegreyasc/v6/-74JUGs8W14C5cCBFRS304gp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Alegreya SC Bold'), local('AlegreyaSC-Bold'), url(http://fonts.gstatic.com/s/alegreyasc/v6/M9OIREoxDkvynwTpBAYUq4gd9OEPUCN3AdYW0e8tat4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Alegreya SC Bold'), local('AlegreyaSC-Bold'), url(http://fonts.gstatic.com/s/alegreyasc/v6/M9OIREoxDkvynwTpBAYUq_79_ZuUxCigM2DespTnFaw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/*
+     FILE ARCHIVED ON 22:23:49 Feb 21, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:15:33 May 16, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
